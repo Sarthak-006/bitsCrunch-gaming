@@ -55,6 +55,7 @@ This dashboard provides real-time insights into blockchain gaming ecosystems wit
 git clone https://github.com/yourusername/bitscrunch-gaming-analytics.git
 cd bitscrunch-gaming-analytics
 pip install -r requirements.txt
+```
 
 Configuration
 Get your API key from bitsCrunch
@@ -62,12 +63,15 @@ Get your API key from bitsCrunch
 Create .streamlit/secrets.toml file:
 
 toml
+```
 API_KEY = "your_bitscrunch_api_key_here"
-
+```
 
 Running the App
 bash
+```
 streamlit run app.py
+```
 
 📈 Hackathon Alignment
 This solution directly addresses the hackathon's gaming track requirements by:
